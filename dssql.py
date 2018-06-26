@@ -8,7 +8,7 @@ print "YouTube : https://www.youtube.com/channel/UC0m4EAZ9_PMfygFXx9P25hg"
 print "Blog    : https://dedseccyberteam.blogspot.com/?m=1"
 print
 #Hacking
-web = raw_input("Terget WebSite : ")
+web = raw_input("Target WebSite : ")
 os.system("sqlmap -u %s --dbs"%(web))
 data = raw_input("DataBase : ")
 os.system("sqlmap -u %s -D %s --tables"%(web, data))
