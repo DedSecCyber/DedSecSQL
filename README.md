@@ -13,3 +13,5 @@ SQL
 # วิธีใช้
 
 ### python2 dssql.py
+
+$ apt-get upgrade -y && apt-get update -y
